@@ -1,4 +1,4 @@
-// Planets Data
+// Array/Data to store planets
 
 const planets = [];
 

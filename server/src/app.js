@@ -1,3 +1,5 @@
+// Main app file to store all the routes and middleware (express app)
+
 const express = require("express");
 
 // In-project IMPORTS
