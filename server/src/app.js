@@ -3,7 +3,7 @@
 const express = require("express");
 
 // In-project IMPORTS
-const planetRouter = require("./routes/planets/planets.router");
+const planetRouter = require("./routes/planets/planets.router").default;
 
 // Express app
 const app = express();

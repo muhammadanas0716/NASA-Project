@@ -1,10 +1,10 @@
 // Defines the routes for the planets endpoint
 
-const express = require("express");
+import { Router } from "express";
 
-const planetsRouter = express.Router();
-const { getAllPlanets } = require("./planets.controller");
+const planetsRouter = Router();
+import { getAllPlanets } from "./planets.controller";
 
 planetsRouter.get("/planets", getAllPlanets);
 
-module.exports = planetsRouter;
+export default planetsRouter;
